@@ -85,7 +85,7 @@ public class CrearTerreno : MonoBehaviour
         }
     }
 
-    private void OnGUI()
+    public void OnGUI()
     {
         if (gameOver)
         {
