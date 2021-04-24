@@ -97,7 +97,7 @@ public class CrearTerreno : MonoBehaviour
             if (!gameStarted)
             {
                 GUI.color = Color.yellow;
-                GUI.Label(new Rect(Screen.width / 2 - 100, Screen.height / 2 - 100, 200, 200), "Presiona ENTER para empezar a jugar");
+                GUI.Label(new Rect(Screen.width / 2 - 100, Screen.height / 2 - 100, 200, 200), ">> Controles: SALTAS con la 'A'\nPresiona ENTER para empezar a jugar");
             }
         }
 
